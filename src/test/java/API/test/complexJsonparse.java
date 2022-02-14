@@ -7,7 +7,7 @@ public class complexJsonparse {
 
 	public static void main(String[] args) {
 		int sum =0;
-JsonPath js = new JsonPath(Payload.courseprice());	
+JsonPath js = new JsonPath(Payload.courseprice());	//response mocking
 int count = js.getInt("courses.size()");
 System.out.println(count);
 int amount = js.get("dashboard.purchaseAmount");

@@ -1,6 +1,17 @@
 package files;
 
 public class Payload {
+	public static String libapi(String isbn, String aisle) {
+		
+		String payload="{\r\n"
+				+ "\"name\":\"Learn Api\",\r\n"
+				+ "\"isbn\":\""+isbn+"\",\r\n"
+				+ "\"aisle\":\""+aisle+"\",\r\n"
+				+ "\"author\":\"raso\"\r\n"
+				+ "}\r\n"
+				+ "";
+		return payload;
+	}
 public static String addplace() {
 	
 	return "{\r\n"
