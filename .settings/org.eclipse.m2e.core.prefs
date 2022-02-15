@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 activeProfiles=jira
+=======
+activeProfiles=
+>>>>>>> c7e1e2e239589ba5ad07e0780f04e060112b3ba0
 eclipse.preferences.version=1
 resolveWorkspaceProjects=true
 version=1
